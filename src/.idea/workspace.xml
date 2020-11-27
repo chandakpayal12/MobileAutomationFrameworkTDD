@@ -1,162 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="45e940b0-81b8-401f-b15c-5982e328e5c6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../All_Execution_Logs/Automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/../All_Execution_Logs/Automation.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/java/base/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/java/common/ExtendReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/java/common/ExtendReport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/java/common/LoggerAgent.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/java/common/LoggerAgent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/java/common/MyTestListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/java/common/PropertyExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/java/common/PropertyExecutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/java/pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/java/pages/ExcelDataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/java/pages/ExcelDataReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/java/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/java/pages/ProductSearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/java/pages/ProductSearchPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/java/utilities/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/java/utilities/Utility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/resources/TestSetup.properties" beforeDir="false" afterPath="$PROJECT_DIR$/main/resources/TestSetup.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/java/tests/AmazonShoppingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/java/tests/AmazonShoppingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/classes/META-INF/maven/Amazon_Shoping/AndroidAutomation/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/classes/META-INF/maven/Amazon_Shoping/AndroidAutomation/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/classes/TestSetup.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/TestSetup.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/AndroidAutomation-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../target/AndroidAutomation-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/main/java/base/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/main/java/base/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/surefire-reports/TEST-test.java.tests.AmazonShoppingTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../target/surefire-reports/TEST-test.java.tests.AmazonShoppingTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/../target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/surefire-reports/junitreports/TEST-test.java.tests.AmazonShoppingTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../target/surefire-reports/junitreports/TEST-test.java.tests.AmazonShoppingTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/surefire-reports/old/test.java.tests.AmazonShoppingTest/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/../target/surefire-reports/old/test.java.tests.AmazonShoppingTest/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/surefire-reports/old/test.java.tests.AmazonShoppingTest/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/../target/surefire-reports/old/test.java.tests.AmazonShoppingTest/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/surefire-reports/test.java.tests.AmazonShoppingTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../target/surefire-reports/test.java.tests.AmazonShoppingTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/surefire-reports/test.java.tests.AmazonShoppingTest/Command line test.html" beforeDir="false" afterPath="$PROJECT_DIR$/../target/surefire-reports/test.java.tests.AmazonShoppingTest/Command line test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/surefire-reports/test.java.tests.AmazonShoppingTest/Command line test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../target/surefire-reports/test.java.tests.AmazonShoppingTest/Command line test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../target/surefire-reports/testng-results.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/../target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main/java/base/BaseTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-804">
-              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/resources/TestSetup.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/java/pages/ProductSearchPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="952">
-              <caret line="66" column="20" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/java/pages/ExcelDataReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1105">
-              <caret line="71" column="34" selection-start-line="71" selection-start-column="34" selection-end-line="71" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/main/java/pages/LoginPage.java" />
-        <option value="$PROJECT_DIR$/main/java/pages/ExcelDataReader.java" />
-        <option value="$PROJECT_DIR$/main/java/pages/ProductSearchPage.java" />
-        <option value="$PROJECT_DIR$/main/java/common/ExtendReport.java" />
-        <option value="$PROJECT_DIR$/main/java/pages/BasePage.java" />
-        <option value="$PROJECT_DIR$/main/java/common/LoggerAgent.java" />
-        <option value="$PROJECT_DIR$/main/java/common/PropertyExecutor.java" />
-        <option value="$PROJECT_DIR$/test/java/tests/AmazonShoppingTest.java" />
-        <option value="$PROJECT_DIR$/main/java/utilities/Utility.java" />
-        <option value="$PROJECT_DIR$/main/resources/TestSetup.properties" />
-        <option value="$PROJECT_DIR$/main/java/base/BaseTest.java" />
-      </list>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.4\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="AndroidAutomation" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="AndroidAutomation" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="AndroidAutomation" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1750" />
-    <option name="height" value="990" />
-  </component>
+  <component name="ProjectId" id="1kskonpYU4HxuqmqiCnqYusksF9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1606495740195" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\HP840G2\Documents\MobileAutomationTDD\SampleFramework\src\main\resources" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -170,233 +75,26 @@
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="846" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2543624" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32913166" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32913166" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24966443" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.29194632" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout>
-  </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main/java/common/MyTestListener.java" />
-    <entry file="file://$PROJECT_DIR$/main/resources/Log4j.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/java/pages/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1683">
-          <caret line="105" column="32" selection-start-line="105" selection-start-column="19" selection-end-line="105" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/java/pages/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="51" column="4" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/java/tests/AmazonShoppingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="49" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/java/common/LoggerAgent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#855#856#0" expanded="true" />
-            <element signature="e#883#884#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/java/common/PropertyExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="25" column="92" selection-start-line="25" selection-start-column="92" selection-end-line="25" selection-end-column="92" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/java/common/ExtendReport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-62">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/java/utilities/Utility.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/java/base/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-804">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/resources/TestSetup.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/java/pages/ProductSearchPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="66" column="20" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/java/pages/ExcelDataReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="71" column="34" selection-start-line="71" selection-start-column="34" selection-end-line="71" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>src</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="WindowStateProjectService">
+    <state width="1493" height="212" key="GridCell.Tab.0.bottom" timestamp="1606500246674">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="1493" height="212" key="GridCell.Tab.0.bottom/0.0.1536.832@0.0.1536.832" timestamp="1606500246674" />
+    <state width="1493" height="212" key="GridCell.Tab.0.center" timestamp="1606500246674">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="1493" height="212" key="GridCell.Tab.0.center/0.0.1536.832@0.0.1536.832" timestamp="1606500246674" />
+    <state width="1493" height="212" key="GridCell.Tab.0.left" timestamp="1606500246673">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="1493" height="212" key="GridCell.Tab.0.left/0.0.1536.832@0.0.1536.832" timestamp="1606500246673" />
+    <state width="1493" height="212" key="GridCell.Tab.0.right" timestamp="1606500246674">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="1493" height="212" key="GridCell.Tab.0.right/0.0.1536.832@0.0.1536.832" timestamp="1606500246674" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1606500042713">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.832@0.0.1536.832" timestamp="1606500042713" />
   </component>
 </project>
