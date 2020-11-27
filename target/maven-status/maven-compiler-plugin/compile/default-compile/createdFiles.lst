@@ -1,0 +1,10 @@
+test\java\tests\AmazonShoppingTest.class
+main\java\common\LoggerAgent.class
+main\java\pages\BasePage.class
+main\java\pages\ProductSearchPage.class
+main\java\base\BaseTest.class
+main\java\common\PropertyExecutor.class
+main\java\common\ExtendReport.class
+main\java\pages\ExcelDataReader.class
+main\java\pages\LoginPage.class
+utilities\Utility.class

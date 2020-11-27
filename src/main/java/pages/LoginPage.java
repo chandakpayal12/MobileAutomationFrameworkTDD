@@ -38,7 +38,7 @@ public class LoginPage extends BasePage<LoginPage> {
 
 
 	/**
-	 * @author 
+	 * @author Payal Chandak
 	 *
 	 *  login 
 	 * @return LoginPage
@@ -50,7 +50,7 @@ public class LoginPage extends BasePage<LoginPage> {
 	}
 	
 	/**
-	 * @author 
+	 * @author Payal Chandak
 	 *
 	 *	Set Email Address
 	 * @return LoginPage
@@ -67,7 +67,7 @@ public class LoginPage extends BasePage<LoginPage> {
 	}
 	
 	/**
-	 * @author 
+	 * @author Payal Chandak
 	 *
 	 *	Click on Continue button
 	 * @return LoginPage
@@ -79,7 +79,7 @@ public class LoginPage extends BasePage<LoginPage> {
 	}
 	
 	/**
-	 * @author 
+	 * @author Payal Chandak
 	 *
 	 *	Enter the password
 	 * @return LoginPage
@@ -96,7 +96,7 @@ public class LoginPage extends BasePage<LoginPage> {
 	
 	
 	/**
-	 * @author 
+	 * @author Payal Chandak
 	 *
 	 * Click on Sign in button
 	 * @return ProductSearchPage

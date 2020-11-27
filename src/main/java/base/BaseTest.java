@@ -4,11 +4,15 @@ package main.java.base;
 import java.io.FileNotFoundException;
 import java.lang.reflect.Method;
 import java.net.MalformedURLException;
+import java.net.URL;
 
 import io.appium.java_client.AppiumDriver;
+import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import io.appium.java_client.MobileElement;
+import io.appium.java_client.android.AndroidDriver;
 import main.java.common.ExtendReport;
 import main.java.common.LoggerAgent;
-import main.java.common.MyTestListener;
 import main.java.common.PropertyExecutor;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
@@ -17,7 +21,6 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
 
-@Listeners(MyTestListener.class)
 public class BaseTest {
 
 	PropertyExecutor propertyExecutor;
@@ -27,7 +30,7 @@ public class BaseTest {
 	private String TestReport;
 
 	/**
-	 * @author 
+	 * @author Payal Chandak
 	 *
 	 *
 	 * @return void
@@ -42,7 +45,7 @@ public class BaseTest {
 
 	
 	/**
-	 * @author 
+	 * @author Payal Chandak
 	 *
 	 *
 	 * @return void
@@ -50,13 +53,25 @@ public class BaseTest {
 	 */
 	@BeforeMethod
 	public void beforeMethod(Method m)  {
-		propertyExecutor.getProperty(Capabilities);
+		// Set desired capabilities.
+	   DesiredCapabilities capabilities = new DesiredCapabilities();
+	   capabilities.setCapability("PLATFORM_NAME", propertyExecutor.getProperty("platformName"));
+	   capabilities.setCapability("PLATFORM_VERSION", propertyExecutor.getProperty("platformVersion"));
+	   capabilities.setCapability("AUTOMATION_NAME",propertyExecutor.getProperty("automationName"));
+	   capabilities.setCapability("DEVICE_NAME",propertyExecutor.getProperty("deviceName"));
+	   capabilities.setCapability("APP",propertyExecutor.getProperty("app"));
+		//Instantiate Appium Driver
+		try {
+			AppiumDriver<MobileElement> driver = new AndroidDriver<MobileElement>(new URL(propertyExecutor.getProperty("URL")), capabilities);
+		} catch (MalformedURLException e) {
+			System.out.println(e.getMessage());
+		}
 	}	
 	
 	
 
 /**
- * @author 
+ * @author Payal Chandak
  *
  *
  * @return void
@@ -71,7 +86,7 @@ public void afterMethod(ITestResult result) throws FileNotFoundException {
 	
 	
 	/**
-	 * @author 
+	 * @author Payal Chandak
 	 * @return void
 	 * @tag  
 	 */

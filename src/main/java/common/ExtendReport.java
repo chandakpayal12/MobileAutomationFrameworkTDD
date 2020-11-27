@@ -8,7 +8,7 @@ import com.relevantcodes.extentreports.ExtentReports;
 
 /**
  * This class contains static methods to create Extent reports and publish them
- * @author 
+ * @author Payal Chandak
  *
  */
 public class ExtendReport {

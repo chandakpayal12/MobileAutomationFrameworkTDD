@@ -16,7 +16,7 @@ import java.util.concurrent.TimeUnit;
  * 09-Oct-2020
  */
 /**
- * @author 
+ * @author Payal Chandak
  *
  * 09-Oct-2020
  */
@@ -33,7 +33,7 @@ public class BasePage<T extends BasePage<T>> {
 	}
 	
 	/**
-	 * @author 
+	 * @author Payal Chandak
 	 *This method is for click on a Element after locating it
 	 *
 	 * @return void
@@ -52,7 +52,7 @@ public class BasePage<T extends BasePage<T>> {
 	
 	
 	/**
-	 * @author 
+	 * @author Payal Chandak
 	 *
 	 *	This method is for set the implicit wait
 	 * @return void
@@ -72,54 +72,5 @@ public class BasePage<T extends BasePage<T>> {
 	//setting values on text field
 	public void setvalues(MobileElement mobileElement, String value) {
 		mobileElement.sendKeys(value);
-	}
-	
-	// Clicking on a particular element
-	private void fastClick(MobileElement mobileElement,int timeOutInSeconds) throws InterruptedException {
-		driver.manage().wait(timeOutInSeconds);
-		mobileElement.click();
-	}
-	
-	
-	/**
-	 * @author 
-	 *
-	 * Method for Scrolling 
-	 * @return void
-	 * @tag  @param times
-	 */
-	public void scrollDown(int times) {
-		for(int i=0;i< times;i++) {
-			org.openqa.selenium.Dimension dim= getDriver().manage().window().getSize();
-			int height=dim.getHeight();
-			int width=dim.getWidth();
-			int x=width/2;
-			int starty=(int)(height*0.85);
-			int endy=(int)(height*0.5);
-			TouchAction action= new TouchAction(getDriver());
-			action.press(PointOption.point(x,starty));
-			action.moveTo(PointOption.point(x, endy));
-			action.release().perform();
-	}
-	}
-
-	
-	/**
-	 * @author 
-	 *
-	 * Rotation methods 1. Rotating Landscape 2. Rotating Portrait
-	 * @return void
-	 * @tag  @param times
-	 */
-	
-	public T rotateToLandscape() {
-		
-		return (T)this;
-	}
-	
-	
-	public T rotateToPortrait() {
-		
-		return (T)this;
 	}
 }

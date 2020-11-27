@@ -39,7 +39,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
-import common.LoggerAgent;
+import main.java.common.LoggerAgent;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileDriver;
 import io.appium.java_client.MobileElement;
@@ -48,6 +48,14 @@ import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.functions.ExpectedCondition;
 import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.PointOption;
+
+/**
+ * @author Payal Chandak
+ *
+ *
+ * Utility to capture screenshots
+ *
+ */
 
 public class Utility {
 

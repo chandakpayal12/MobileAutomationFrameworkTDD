@@ -5,7 +5,6 @@ import com.relevantcodes.extentreports.ExtentTest;
 import io.appium.java_client.AppiumDriver;
 import main.java.pages.LoginPage;
 import org.testng.annotations.Test;
-
 import utilities.Utility;
 import com.relevantcodes.extentreports.LogStatus;
 import main.java.base.BaseTest;
@@ -19,7 +18,7 @@ public class AmazonShoppingTest extends BaseTest{
 	/*Test for login,
 	 * adding product and 
 	 * validation
-	 * @author 
+	 * @author : Payal Chandak
 	*/
 	@Test(priority=1,enabled=true)
 	public void validateAmazonProductAdded(AppiumDriver driver) throws Exception {
@@ -32,8 +31,7 @@ public class AmazonShoppingTest extends BaseTest{
 		.searchProduct()
 		.selectProduct()
 		.selectSearchedProduct()
-		.validateProductScreenValuesVsCheckout()
-		.rotateToPortrait();
+		.validateProductScreenValuesVsCheckout();
 		ExtentTest testReporter = null;
 		testReporter.log(LogStatus.PASS, "Product Shipped Successfully...",  testReporter.addScreenCapture(Utility.captureScreenshot(driver, screenShotPath)));
 

@@ -15,7 +15,11 @@ public class ExcelDataReader {
     public static XSSFCell Cell;
 
     public ExcelDataReader() {}
-
+    /**
+     * @author Payal Chandak
+     *
+     *	Read Data from Excel
+     */
 
     public void setExcelFile(String Path,String SheetName) throws Exception {
 
